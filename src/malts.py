@@ -1,5 +1,3 @@
-#! /usr/bin/env python
-
 # Copyright (c) 2016, Joseph R. Peterson
 # All rights reserved.
 # 
@@ -27,20 +25,3 @@
 # CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-import argparse
-
-parser = argparse.ArgumentParser()
-parser.add_argument("-i","--inputFile", default=None, required=False, help="Run the command line version of the program with an input file.")
-
-
-if __name__ == "__main__":
-	args = parser.parse_args()
-
-	# Execute command line version of PerfectBru
-	if args.inputFile != None:
-		pass
-	# Execute the gui version of PerfectBru
-	else:
-		pass
-
