@@ -101,4 +101,8 @@ class Hops(object):
 			raise TypeError("Variables: [%s] must be of type 'str'."%(self.aromas)):
 
 
+	def __repr__(self):
+		thestr = ""
+		thestr += self.name
+		return thestr
 
